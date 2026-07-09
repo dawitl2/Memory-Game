@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Memory Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="main">
+        <div class="title" >
+            <h1>የምስል ማስታወስ ጨዋታ</h1>
+            <h2>የኢትዮጵያ ምግብ እትም</h2>            
+        </div>
+        <div class="game-container">
+            <div class="game-board">
+                <!-- Cards will be generated here -->
+            </div>
+            <div class="controls">
+                <button id="reset-button">ሰርዝ</button>
+                <div id="score-board">Score: 0</div>
+            </div>
+        </div>
+        <!-- Win message -->
+        <div id="win-message" class="hidden">
+            <div class="win-content">
+                <p>You Win!</p>
+                <button id="play-again">Play Again</button>
+            </div>
+        </div>
+    </div>
+    <script src="jquery.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
